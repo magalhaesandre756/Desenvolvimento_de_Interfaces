@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 17 - HTML</title>
+</head>
+<body>
+    <form action="Exercicio17.aspx" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="">Nome Completo</label><br>
+                <input type="text" name="txtNomeCompleto" id="txtNomeCompleto" required placeholder="Digite seu Nome Completo">
+            </div>
+            <br>
+            <div>
+                <label for="">E-mail</label><br>
+                <input type="email" name="txtemail" id="txtemail" required placeholder="SeuEmail@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="">Ano de nascimento</label><br>
+                <input type="number" name="txtAnoNascimento" id="txtAnoNascimento" min="1935" step="1" max="2026">
+            </div>
+            <br>
+            <div>
+                <label for="">Data de Nascimento</label><br>
+                <input type="date" name="txtDataNascimento" id="txtDataNascimento" min="1935-01-01" max="2026-01-01">
+            </div>
+            <br>
+            <div>
+                <label for="">Horário preferido de estudo</label><br>
+                <input type="time" name="txthorario" id="txthorario">
+            </div>
+            <br>
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
