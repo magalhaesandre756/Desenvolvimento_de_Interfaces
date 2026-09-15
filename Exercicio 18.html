@@ -31,11 +31,32 @@
                 <input type="checkbox" name="chkDisciplinaInteresse" id="chkDisciplinaInteresse">Algebra linear
             </div>
             <br>
-            <label for="">Turno preferido</label><br>
+            <div>
+                <label for="">Turno preferido</label><br>
             <input type="radio" name="txtturno" id="txtturno">Vespertino
             <input type="radio" name="txtturno" id="txtturno">Matutino
             <input type="radio" name="txtturno" id="txtturno">Noturno
+            </div>
+            <br>
+            <div>
+                <label for="">Curso Favorito</label><br>
+                <select name="cboCurso" id="cboCurso">
+                    <option value="1">Engenharia de Software</option>
+                    <option value="2">Engenharia da Computação</option>
+                    <option value="3">Ciência da Computação</option>
+                </select>
+            </div>
         </fieldset>
+        <Fieldset>
+            <legend>Nível de interesse HTML</legend>
+            <div>
+                <label for="">HTML</label>
+                <input type="range" name="rngHtml" id="rngHtml" min="0" max="10" step="1" value="5">
+            </div>
+            <br>
+        </Fieldset>
+       
+            <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
